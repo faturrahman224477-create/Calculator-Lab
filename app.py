@@ -3,11 +3,18 @@ import pandas as pd
 import statsmodels.api as sm
 import plotly.express as px
 
-st.set_page_config(page_title="Interactive Econometric Lab, layout="wide")
+st.set_page_config(page_title="Interactive Econometric Lab - DataAksi", layout="wide")
 
-st.title("Interactive Econometric Lab (Version 1.0)")
-st.markdown("**Econometric Analysis Laboratory**")
-st.write("---")
+st.markdown("""
+    <div style='padding: 10px 0; border-bottom: 2px solid #e2e8f0; margin-bottom: 20px;'>
+        <h2 style='color: #06065D; font-size: 24px; font-weight: 700; margin: 0;'>
+            📊 Interactive Econometric Lab (Version 2.0)
+        </h2>
+        <p style='color: #475569; font-size: 13px; font-weight: 500; margin-top: 4px;'>
+            <b>DataAksi</b> • Econometric Analysis Laboratory (Prodi Bisnis Digital FEB UNM)
+        </p>
+    </div>
+""", unsafe_allow_html=True)
 
 @st.cache_data
 def load_data():
