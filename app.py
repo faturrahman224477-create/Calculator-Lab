@@ -3,10 +3,10 @@ import pandas as pd
 import statsmodels.api as sm
 import plotly.express as px
 
-st.set_page_config(page_title="Interactive Econometric Lab - DataAksi", layout="wide")
+st.set_page_config(page_title="Interactive Econometric Lab, layout="wide")
 
-st.title("📊 Interactive Econometric Lab (Version 2.0)")
-st.markdown("**DataAksi • Econometric Analysis Laboratory (Prodi Bisnis Digital FEB UNM)**")
+st.title("Interactive Econometric Lab (Version 1.0)")
+st.markdown("**Econometric Analysis Laboratory**")
 st.write("---")
 
 @st.cache_data
